@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Christina Wu — Software Engineer</title>
+<meta name="description" content="Christina Wu — software engineer building reliable systems and intuitive interfaces." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="dusk.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site-nav">
+  <a class="nav-logo" href="#hero">Christina Wu</a>
+  <nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#skills">Stack</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero" data-screen-label="Hero">
+  <canvas id="hero-canvas"></canvas>
+  <div id="hub-labels"></div>
+  <div class="hero-center">
+    <div class="hero-eyebrow">
+      <span class="kicker">Software Engineer</span>
+    </div>
+    <h1 class="hero-name">Christina <em>Wu</em></h1>
+    <p id="hub-blurb" class="hub-blurb">Reliable systems. Intuitive interfaces.</p>
+  </div>
+  <nav class="hero-index" aria-label="Sections">
+    <a href="#about"><span class="hi-n">01</span><span class="hi-t">About</span><span class="hi-x">→</span></a>
+    <a href="#work"><span class="hi-n">02</span><span class="hi-t">Work</span><span class="hi-x">→</span></a>
+    <a href="#skills"><span class="hi-n">03</span><span class="hi-t">Stack</span><span class="hi-x">→</span></a>
+    <a href="#resume"><span class="hi-n">04</span><span class="hi-t">Resume</span><span class="hi-x">→</span></a>
+    <a href="#contact"><span class="hi-n">05</span><span class="hi-t">Contact</span><span class="hi-x">→</span></a>
+  </nav>
+  <div class="scroll-cue">
+    <span class="lab">Scroll</span>
+    <span class="ln"></span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section" data-screen-label="About">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="sec-title">About</h2>
+      <span class="idx">01 — My story</span>
+    </div>
+    <div class="about">
+      <div class="about-bio reveal">
+        <p class="about-lead">I'm a fullstack engineer who took the scenic route.</p>
+        <p>After nearly a decade in nonprofits and education, I got tired of broken systems and taught myself how to build better ones. Today I build across the stack, shipping products in gaming and e-commerce and working on small teams where I can own a feature from idea to production.</p>
+        <p>While software became my career, I never completely left my nonprofit roots. I still volunteer my engineering skills for various organizations during my free time.</p>
+      </div>
+      <div class="about-meta reveal d1">
+        <ul class="facts">
+          <li><span class="k">Based in</span><span class="v">Los Angeles / Remote</span></li>
+          <li><span class="k">Focus</span><span class="v">Fullstack</span></li>
+          <li><span class="k">Currently</span><span class="v">Open to senior roles</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="section" data-screen-label="Work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="sec-title">Work</h2>
+      <span class="idx">02 — Selected projects</span>
+    </div>
+    <div class="work-list">
+
+      <article class="project reveal">
+        <div class="project-media">
+          <span class="pnum idx">01</span>
+          <img src="img/quizzical.png" alt="Quizzical">
+        </div>
+        <div class="project-info">
+          <h3 class="ptitle"><a href="https://xchristinawu.github.io/quizzical/" target="_blank" rel="noopener">Quizzical <span class="arrow">↗</span></a></h3>
+          <div class="tags"><span>React</span><span>Vite</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-media">
+          <span class="pnum idx">02</span>
+          <img src="img/ingress.png" alt="Ingress">
+        </div>
+        <div class="project-info">
+          <h3 class="ptitle"><a href="https://drive.google.com/file/d/1SDxWWlU395s8DeGlRjjs9YPC4NmF9jzl/view" target="_blank" rel="noopener">Ingress <span class="arrow">↗</span></a></h3>
+          <div class="tags"><span>Unity</span><span>C#</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-media">
+          <span class="pnum idx">03</span>
+          <img src="img/3d-sphere.png" alt="3D Sphere">
+        </div>
+        <div class="project-info">
+          <h3 class="ptitle"><a href="https://xchristinawu.github.io/3d-sphere/" target="_blank" rel="noopener">3D Sphere <span class="arrow">↗</span></a></h3>
+          <div class="tags"><span>three.js</span><span>GSAP</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="skills" class="section" data-screen-label="Stack">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="sec-title">Stack</h2>
+      <span class="idx">03 — What I build with</span>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-cell reveal">
+        <h3>Languages</h3>
+        <ul><li>C#</li><li>Java</li><li>JavaScript</li><li>Python</li><li>SQL</li><li>TypeScript</li></ul>
+      </div>
+      <div class="stack-cell reveal d1">
+        <h3>Frameworks</h3>
+        <ul><li>Alpine.js</li><li>Django</li><li>Express</li><li>Node.js</li><li>React</li><li>Spring Boot</li><li>Vue.js</li><li>Zod</li></ul>
+      </div>
+      <div class="stack-cell reveal d2">
+        <h3>Databases</h3>
+        <ul><li>PostgreSQL</li><li>Drizzle ORM</li></ul>
+      </div>
+      <div class="stack-cell reveal d3">
+        <h3>Platform/Tools</h3>
+        <ul><li>DigitalOcean</li><li>Docker</li><li>Git</li><li>Shopify</li><li>Unity</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Resume -->
+<section id="resume" class="section" data-screen-label="Resume">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="sec-title">Resume</h2>
+      <span class="idx">04 — The journey</span>
+    </div>
+    <div class="timeline">
+        <div class="tl-item reveal">
+            <span class="tl-year">2023 - Now</span>
+            <div><div class="tl-role">Fullstack Engineer</div><div class="tl-org">Aventon: E-commerce Platform & Backend Services</div></div>
+            <span class="tl-where">Los Angeles</span>
+        </div>
+        <div class="tl-item reveal">
+            <span class="tl-year">2023</span>
+            <div><div class="tl-role">Software Engineer, Client</div><div class="tl-org">Niantic: Augmented Reality Gaming</div></div>
+            <span class="tl-where">Los Angeles</span>
+        </div>
+        <div class="tl-item reveal">
+            <span class="tl-year">2017 - 2022</span>
+            <div><div class="tl-role">JavaScript Developer</div><div class="tl-org">CA School of the Arts: Nonprofit Education</div></div>
+            <span class="tl-where">Los Angeles</span>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<footer id="contact" class="section" data-screen-label="Contact">
+  <canvas id="contact-canvas"></canvas>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="sec-title">Contact</h2>
+      <span class="idx">05 — Let's build something</span>
+    </div>
+    <h2 class="contact-big reveal d1">
+      <a href="mailto:christina@christinawu.dev">Say hello <span class="arrow">↗</span></a>
+    </h2>
+    <div class="contact-row reveal d1">
+      <div class="socials">
+        <a href="https://github.com/xchristinawu" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/christinawudev/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <span class="colophon">© 2026 · Los Angeles · <a href="https://poly.pizza/m/5Dzvrp9lvtN" target="_blank" rel="noopener">Paper airplane</a> by Poly by Google via Poly Pizza <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC-BY</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- scripts -->
+<script type="module" src="dusk-hero.js"></script>
+<script type="module" src="contact-plane.js"></script>
+<script type="module" src="dusk-main.js"></script>
+</body>
+</html>
